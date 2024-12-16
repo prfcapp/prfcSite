@@ -1,0 +1,78 @@
+/* Existing styles */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif; /* A calm and classic font */
+    background: url('../assets/images/background.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Cover the entire background */
+    color: #fff; /* White text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 0 1rem; /* Add padding to prevent content from touching the edges */
+}
+
+.initials {
+    font-size: 10rem; /* Larger font size */
+    color: #ffffff; /* White color for the text */
+}
+
+.about-me {
+    background-color: #ffffff; /* White background */
+    color: #2e8b57; /* Deep green text color */
+    padding: 2rem;
+    width: 100%; /* Take the full width of the site */
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 20rem; /* Additional space at the bottom */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.about-me h2 {
+    font-size: 2rem;
+}
+
+.about-me p {
+    font-size: 1.25rem;
+    max-width: 800px; /* Limit the paragraph width for better readability */
+    margin: 0 auto; /* Center the paragraph within the section */
+    padding: 0 1rem; /* Add padding to prevent content from touching the edges */
+}
+
+/* Footer styles */
+.footer {
+    background-color: rgba(46, 139, 87, 0.7); /* Deep green color for footer with transparency */
+    color: #fff; /* White text color */
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    color: #fff; /* White color for link */
+    text-decoration: none;
+}
+
+.github-link svg {
+    fill: #fff; /* White color for the GitHub logo */
+    width: 32px;
+    height: 32px;
+    transition: fill 0.3s;
+}
+
+.github-link:hover svg {
+    fill: #f5f5f5; /* Slightly lighter color on hover */
+}
